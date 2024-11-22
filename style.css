@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 206, 204);
+}
+
+.card{
+    width: 525px;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Text{
+    padding: 50px 25px 50px 17px;
+    width: 50%;
+    height: 100%;
+    text-align: start;
+}
+
+.TopItem{
+    font-size: 15px;
+    color: gray;
+}
+
+.ItemName{
+    font-size: 33px;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+}
+
+.CoverPrice{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Price{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 10px 20px 0px;
+    color: green;
+}
+
+.OldPrice{
+    font-size: 15px;
+    color: gray;
+    text-decoration: solid line-through;
+    text-decoration-thickness: 2.1px;
+}
+
+.AddCart{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.AddCart:hover{
+    transform: scale(1.1);
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.IconCart{
+    width: auto;
+    height: 50%;
+    color: white;
+}
